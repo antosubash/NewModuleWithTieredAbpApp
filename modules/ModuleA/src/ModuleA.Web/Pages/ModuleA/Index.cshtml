@@ -1,0 +1,9 @@
+﻿@page
+@using Microsoft.Extensions.Localization
+@using ModuleA.Localization
+@model ModuleA.Web.Pages.ModuleA.IndexModel
+@inject IStringLocalizer<ModuleAResource> L
+@{
+}
+<h1>ModuleA</h1>
+<p>@L["SamplePageMessage"]</p>
