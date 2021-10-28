@@ -211,13 +211,7 @@ public class TodoOneAppService : ModuleAAppService
 options.AddDefaultRepositories(includeAllEntities: true);
 ```
 
-## 9. Update the `OnModelCreating` in the `MainAppDbContext` in the `MainApp.EntityFrameworkCore` project
-
-```cs
-builder.ConfigureModuleA();
-```
-
-## 10. Update the `ConfigureAutoApiControllers` in the `MainAppHttpApiHostModule` in the `MainApp.HttpApi.Host`
+## 9. Update the `ConfigureAutoApiControllers` in the `MainAppHttpApiHostModule` in the `MainApp.HttpApi.Host`
 
 ```cs
 Configure<AbpAspNetCoreMvcOptions>(options =>
